@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;box-sizing: border-box;}
+        main{width: 1200px;height: auto;background-color: antiquewhite;margin: 0 auto;}
+        nav{
+            width: 100%;
+            height: 70px;
+            background-color: #ccc;
+            margin: 0 auto;
+            align-content: center;
+            margin: 5px 0;
+        }
+        header{
+            width: 100%;
+            height: 150px;
+            background-color: #ccc;
+            align-content: center;
+        }
+        #container{
+            width: 100%;
+            height: 500px;
+            background-color: rgb(70,66,60);
+            display: flex;flex-direction: row;
+            margin: 5px 0;
+            gap: 5px;
+        }
+        #side-area{
+            width: 400px;
+            height: 100%;
+            background-color: #CCC; 
+            align-content: center;
+        }
+        #body-area{
+            width: 800px;
+            height: 100%;
+            background-color: #CCC;
+        }
+        .abc{
+            width: 800px;
+            height: 200px;
+            background-color: aqua;
+            
+        }
+        footer{
+            width: 100%;
+            height: 120px;
+            background-color: #CCC;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="logo"><h2>logo</h2></div>
+        <nav><h2>navigation</h2></nav>
+        <header><h2>header</h2></header>
+        <div id="container">
+            <div id="side-area"><h2>side area</h2></div>
+            <div id="body-area"><h2>body area</h2>
+                <div class="abc"></div><br>
+                <div class="abc"></div>
+            </div>
+           
+        </div>
+        <footer><h2>footer</h2></footer>
+    </main>
+</body>
+</html>
